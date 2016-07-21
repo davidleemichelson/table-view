@@ -14,6 +14,7 @@
 		31DFE0341D40A06F009BABD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DFE0321D40A06F009BABD2 /* LaunchScreen.storyboard */; };
 		31DFE03F1D40A06F009BABD2 /* table_view_tryoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DFE03E1D40A06F009BABD2 /* table_view_tryoutTests.swift */; };
 		31DFE04A1D40A06F009BABD2 /* table_view_tryoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DFE0491D40A06F009BABD2 /* table_view_tryoutUITests.swift */; };
+		31DFE0581D40A21B009BABD2 /* DemoPrototypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DFE0571D40A21B009BABD2 /* DemoPrototypeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		31DFE0451D40A06F009BABD2 /* table-view-tryoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "table-view-tryoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DFE0491D40A06F009BABD2 /* table_view_tryoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = table_view_tryoutUITests.swift; sourceTree = "<group>"; };
 		31DFE04B1D40A06F009BABD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DFE0571D40A21B009BABD2 /* DemoPrototypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPrototypeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				31DFE0291D40A06F009BABD2 /* AppDelegate.swift */,
+				31DFE0571D40A21B009BABD2 /* DemoPrototypeCell.swift */,
 				31DFE02B1D40A06F009BABD2 /* ViewController.swift */,
 				31DFE02D1D40A06F009BABD2 /* Main.storyboard */,
 				31DFE0301D40A06F009BABD2 /* Assets.xcassets */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31DFE0581D40A21B009BABD2 /* DemoPrototypeCell.swift in Sources */,
 				31DFE02C1D40A06F009BABD2 /* ViewController.swift in Sources */,
 				31DFE02A1D40A06F009BABD2 /* AppDelegate.swift in Sources */,
 			);
